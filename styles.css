@@ -1,0 +1,314 @@
+body {
+    font-size: 15px;
+    font-family: 'Spartan';
+    overflow: hidden;
+}
+
+.top-desktop-img {
+    display: none;
+}
+
+.bot-desktop-img {
+    display: none;
+}
+
+.top-mobile-img {
+    position: absolute;
+    bottom: 77%;
+}
+
+.bot-mobile-img {
+    position: absolute;
+    margin-top: 420px;
+    left: 0;
+}
+
+.intro-ratings-container {
+    text-align: center;
+    margin-top: 60px;
+    color: hsl(300, 43%, 22%);
+}
+
+/* Intro Section */
+
+.intro-container {
+    font-size: 12px;
+    width: 75%;
+    margin: auto;
+}
+
+.intro-container h1 {
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.intro-container p {
+    line-height: 1.5;
+}
+
+/* Ratings Section */
+
+.ratings-container {
+    font-size: 10.5px;
+    margin-bottom: 35px;
+}
+
+.ratings {
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    margin: auto auto 12px;
+    width: 64.2%;
+}
+
+.stars img {
+    width: 12px;
+    margin-left: 3.5px;
+    padding-bottom: 6px;
+}
+
+/* Reviews Section */
+
+.reviews-container {
+    color: white;
+    overflow: hidden;
+}
+
+.reviews {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 8px;
+    padding: 20px;
+    margin: auto auto 15px;
+    width: 64.2%;
+}
+
+.reviews img {
+    border-radius: 100%;
+    width: 28px;
+    position: absolute;
+    margin-top: 3.5px;
+}
+
+.reviews h2 {
+    font-size: 9.5px;
+    margin-left: 41px;
+    margin-bottom: 20px;
+}
+
+.reviews span {
+    display: block;
+    color: hsl(333, 80%, 67%);
+    font-weight: 300; 
+    margin-top: 1.8px;
+}   
+
+.reviews p {
+    font-size: 9px;
+    line-height: 1.6;
+}
+
+
+@media (min-width: 200px) {
+    .attribution {
+        position: relative;
+        color: hsl(300, 43%, 22%);
+        font-size: 10.5px;
+        text-align: center;
+        margin-top: 18px;
+    }
+}
+
+@media (min-width: 700px) {
+.top-desktop-img {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+}
+
+.bot-desktop-img {
+    position: absolute;
+    display: block;
+    margin-top: 15rem;
+    right: 0;
+}
+
+.top-mobile-img {
+    display: none;
+}
+
+.bot-mobile-img {
+    display: none;
+}
+
+  /* Intro Section */
+
+.intro-container {
+    font-size: inherit;
+}
+
+.intro-container h1 {
+    margin-bottom: 20px;
+}
+
+/* Ratings Section */
+
+.ratings-container {
+    font-size: 12px;
+}
+
+.stars img {
+    width: 15px;
+}
+
+/* Reviews Section */
+
+.reviews img {
+    width: 30px;
+    margin-top: 4px;
+}
+
+.reviews h2 {
+    font-size: 11px;
+} 
+
+.reviews p {
+    font-size: 10px;
+}
+
+.attribution {
+    margin-top: 1rem;
+}
+
+}
+
+@media (min-width: 1200px) {
+
+.bot-desktop-img  {
+    margin-top: 15rem;
+}
+
+.intro-ratings-container {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+/* Intro Section */
+
+.intro-container {
+    margin-left: 150px;
+    font-size: inherit;
+    text-align: left;
+    width: 50%;
+}
+
+.intro-container h1 {
+    font-size: 47px;
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+.intro-container p {
+    opacity: 95%;
+    line-height: 1.7;
+    font-size: 15px;
+    margin-top: 0;
+    width: 80%;
+}
+
+/* Ratings Section */
+
+.ratings-container {
+    font-size: 13.5px;
+    width: 50%;
+    text-align: left;
+    margin-top: 40px;
+    position: relative;
+}
+
+.ratings {
+    position: absolute;
+    padding: 17px 10px 15px;
+    width: 428px;
+}
+
+.ratings-container-one {
+    left: -40px;
+}
+
+.ratings-container-two {
+    margin-top: 70px;
+}
+
+.ratings-container-three {
+    margin-top: 140px;
+    left: 40px;
+}
+
+.ratings span {
+    margin-left: 35px;
+    font-weight: 800;
+}
+
+.stars {
+    margin-left: 10px;
+}
+
+.stars img {
+    float: left;
+    width: 16.5px;
+    margin-left: 8px;
+}
+
+/* Reviews Section */
+.reviews-container {
+    display: flex;
+    width: 80%;
+    margin: 5% 165px auto;
+}
+
+.reviews {
+    margin-left: 25px;
+    padding: 40px 24px 30px 30px;
+}
+
+.r-irene-container {
+    position: relative;
+    top: 15px;
+}
+
+.r-anne-container {
+    position: relative;
+    top: 30px;
+}
+
+.reviews img {
+    width: 41px;
+    margin-top: 3px; 
+}
+
+.reviews h2 {
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 60px;
+} 
+
+.reviews span {
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.reviews p {
+    font-size: 13px;
+    line-height: 1.8;
+    margin-top: 30px;
+    opacity: 90%;
+}  
+
+.attribution {
+    margin-top: 13%;
+}
+
+}
